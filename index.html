@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piatră, Foarfecă, Hârtie</title>
+
+</head>
+<body>
+
+    <div class="container">
+
+        
+        <div class="title-area">
+        <h1 class="title">Piatră, Foarfecă, Hârtie</h1>
+        <img src="img/rock-paper-scissors.png" alt="" class="start-img">
+        <input type="text" placeholder="Numele tau" class="username">
+        <h2 class="error-text"></h2>
+        </div>
+
+
+        <div class="start-game">
+
+        <button type="submit" class="start">START</button>
+
+        </div>
+
+
+    </div>
+
+    <div class="container-start hidden">
+
+        <div class="events">
+
+        <div class="computer">
+            <img src="/img/computer.png" alt="">
+            <h1>:</h1>
+            <h1 class="computer-choice"></h1>
+        </div>
+
+        <div class="user">
+            <img src="/img/man.png" alt="">
+            <h1>:</h1>
+            <h1 class="user-choice"></h1>
+        </div>
+
+    </div>
+
+
+    <div class="user-buttons">
+        <button class="choice" value="Piatra"><img src="/img/stone.png" alt=""></button>
+        <button class="choice" value="Foarfeca"><img src="/img/scissors.png" alt=""></button>
+        <button class="choice" value="Hartie"><img src="/img/paper.png" alt=""></button>
+    </div>
+     
+
+        <div class="winner">
+            <img src="/img/computer.png" alt="">
+            <h2 class="score"><span class="computer-score">0</span> : <span class="user-score">0</span></h2>
+            <img src="/img/man.png" alt="">
+   
+        </div>
+
+        <h2 class="winner-text hidden"></h2>
+        <button type="submit" class="again hidden">JOACA DIN NOU</button>
+
+
+    </div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>
